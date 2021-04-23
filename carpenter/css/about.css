@@ -1,0 +1,260 @@
+/*
+Template Name:Carpenter
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* about_main ****************/
+#about_main{ 
+ background-image: url(../img/35.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:180px;
+ padding-bottom:180px;
+ }
+.about_main_1{ 
+ background-color: #b56f13c4;
+ padding: 20px;
+ width: 25%;
+ text-align: center;
+ border-radius: 180px 10px 60px 10px;
+ }
+.about_main_1 h2{ 
+ color:#fff;
+ }
+.about_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.about_main_1 i{ 
+ color:#fff;
+ }
+.about_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* about_main_end ****************/
+/********************* about ****************/
+#about{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.about_3 h4{
+ color: #b56f13;
+}
+.about_3 h2 {
+ padding-bottom:20px;
+}
+/********************* about_end ****************/
+/********************* choose ****************/
+#choose{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.choose_1 h3 {
+ color: #b56f13;
+}
+.choose_1 h2 {
+ padding-bottom:20px;
+}
+.choose_3 i{ 
+ font-size: 30px;
+ width: 68px;
+ line-height: 64px;
+ border: 2px solid #b88a4d;
+ color: #b88a4d;
+ text-align: center;
+ border-radius: 100%;
+ margin-bottom: 20px;
+ }
+.choose_4 h3{ 
+ padding-bottom:10px;
+ padding-top:17px;
+ }
+.choose_4 h3 a{ 
+ color:#000;
+ }
+.choose_4 h3 a:hover{ 
+ color: #b88a4d;
+ }
+/********************* choose_end ****************/
+/********************* work ****************/
+#work{ 
+ background-color:#58442F;
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.work_2{ 
+ text-align:center;
+ }
+.work_2 i{ 
+ font-size:50px;
+ color:#fff;
+ }
+.work_2 h2{ 
+ color:#B89453;
+ padding-top:10px;
+ padding-bottom:10px;
+ }
+.work_2 h3{ 
+ color:#fff;
+ }
+/********************* work_end ****************/
+/********************* latest ****************/
+#latest{ 
+ background-image: url(../img/37.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+.latest_main{ 
+ padding-top:180px;
+ padding-bottom:180px;
+ background-color: #6c461bcf;
+ text-align:center;
+ }
+.latest_1 h1{ 
+ color:#fff;
+ padding-bottom:20px;
+ }
+.latest_1 h3{ 
+ color:#fff;
+ padding-bottom:36px;
+ }
+.latest_1 li{ 
+ display:inline;
+ margin-right:10px;
+ }
+.latest_1 li a{ 
+ border: 2px solid #fff;
+ padding:10px 10px 10px 10px;
+ font-size:20px;
+ color:#fff;
+ }
+.latest_1 li a:hover{ 
+ background-color:#fff;
+ color: #b56f13; 
+ }
+/********************* latest_end ****************/
+
+
+
+
+
+@media screen and (max-width : 767px){
+.about_main_1 {
+ width: 90%;
+}
+#about_main {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+#about {
+ text-align: center;
+}
+.about_3 h2 {
+ padding-bottom: 0px;
+}
+.about_3 h4 {
+ padding-top: 20px;
+}
+.latest_main {
+ padding-top: 30px;
+ padding-bottom: 50px;
+}
+#choose {
+ text-align: center;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+.about_main_1 {
+ width: 55%;
+}
+#about_main {
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+.about_3 h2 {
+ padding-bottom: 0px;
+}
+#about {
+ padding-bottom: 40px;
+}
+.latest_main {
+ padding-top: 80px;
+ padding-bottom: 96px;
+}
+.choose_4 h3 a {
+ font-size: 20px;
+}
+.choose_4 h3 {
+ padding-bottom: 0px;
+ padding-top: 0px;
+}
+.choose_4 p {
+ font-size: 16px;
+ padding-bottom: 0px;
+}
+.choose_3 i {
+ font-size: 25px;
+ width: 50px;
+ line-height: 45px;
+}
+.work_2 h3 {
+ font-size: 15px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+.about_main_1 {
+ width: 55%;
+}
+#about_main {
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+.about_3 h2 {
+ padding-bottom: 0px;
+}
+#about {
+ padding-bottom: 40px;
+}
+.latest_main {
+ padding-top: 80px;
+ padding-bottom: 96px;
+}
+.choose_4 h3 a {
+ font-size: 20px;
+}
+.choose_4 h3 {
+ padding-bottom: 0px;
+ padding-top: 0px;
+}
+.choose_4 p {
+ font-size: 16px;
+ padding-bottom: 0px;
+}
+.choose_3 i {
+ font-size: 25px;
+ width: 50px;
+ line-height: 45px;
+}
+.work_2 h3 {
+ font-size: 15px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

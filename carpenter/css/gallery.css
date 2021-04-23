@@ -1,0 +1,99 @@
+/*
+Template Name:Carpenter
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* gallery_main ****************/
+#gallery_main{ 
+ background-image: url(../img/38.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:180px;
+ padding-bottom:180px;
+ }
+.gallery_main_1{ 
+ background-color: #b56f13c4;
+ padding: 20px;
+ width:25%;
+ text-align: center;
+ border-radius: 180px 10px 60px 10px;
+ }
+.gallery_main_1 h2{ 
+ color:#fff;
+ }
+.gallery_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.gallery_main_1 i{ 
+ color:#fff;
+ }
+.gallery_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* gallery_main_end ****************/
+/********************* gallery ****************/
+#gallery{ 
+ padding-top:30px;
+ padding-bottom:10px;
+ }
+.gallery_2 img{ 
+ border-radius: 90px 30px 90px 30px;
+ }
+.gallery_3 img{ 
+ border-radius: 50px 110px 50px 130px;
+ }
+.gallery_4 img{ 
+ border-radius: 150px 110px 100px 130px;
+ }
+/********************* gallery_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#gallery_main {
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+.gallery_main_1 {
+ width: 90%;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+.gallery_main_1 {
+ width: 55%;
+}
+#gallery_main {
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+.gallery_main_1 {
+ width: 55%;
+}
+#gallery_main {
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

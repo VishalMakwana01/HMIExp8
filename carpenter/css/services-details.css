@@ -1,0 +1,208 @@
+/*
+Template Name:Carpenter
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* services_details_main ****************/
+#services_details_main{ 
+ background-image: url(../img/44.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:180px;
+ padding-bottom:180px;
+ }
+.services_main_1{ 
+ background-color: #b56f13c4;
+ padding: 20px;
+ width: 38%;
+ text-align: center;
+ border-radius: 180px 10px 60px 10px;
+ }
+.services_main_1 h2{ 
+ color:#fff;
+ }
+.services_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.services_main_1 i{ 
+ color:#fff;
+ }
+.services_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* services_details_end ****************/
+/********************* design ****************/
+#design{
+ padding-top:30px;
+ padding-bottom:30px; 
+}
+.design_2 h3{
+ padding-bottom:20px;
+ color: #b56f13;
+}
+.design_2 p{
+ padding-top:20px;
+ line-height:30px;
+}
+.design_5 p{ 
+ padding-bottom:0px;
+ }
+.design_5 ul{ 
+ padding-bottom:10px;
+ }
+.design_5 li{ 
+ line-height:28px;
+ font-size:18px;
+ }
+.design_5 i{ 
+ padding-right:10px;
+ }
+.design_6 i{ 
+ font-size: 30px;
+ width: 68px;
+ line-height: 64px;
+ border: 2px solid #b88a4d;
+ color: #fff;
+ text-align: center;
+ border-radius: 100%;
+ margin-bottom: 20px;
+ margin-right:20px;
+ background-color:#b88a4d;
+ }
+.design_7 h3{
+ padding-bottom:20px;
+ color: #b56f13;
+}
+.design_7 i{
+ padding-right:10px;
+}
+.design_7 a{
+ font-size:23px;
+ color:#000;
+}
+.design_7 a:hover{
+ font-size:23px;
+ color: #b56f13;
+}
+.design_7 p{
+ background-color:#f1f1f1;
+ padding:10px;
+ margin-bottom:10px;
+}
+.design_8{ 
+ background: rgba(104, 70, 28, 0.9);
+ padding: 14px;
+ margin-top:20px;
+}
+.design_8 h3{ 
+ color:#fff;
+ padding-bottom:10px;
+ padding-top: 10px;
+}
+.design_8 h2 a{ 
+ color:#fff;
+ font-size: 40px;
+} 
+.design_8 p{ 
+ color:#fff;
+ padding-bottom:0px;
+} 
+.design_9{ 
+ background-color:#f1f1f1;
+ padding:10px;
+ margin-top:20px;
+ }
+.design_9 h3{ 
+ padding-top:10px;
+ }
+.design_9 i{ 
+ padding-right:10px;
+ color: #e45e5e;
+ }
+.design_9 p{ 
+ padding-bottom:0px;
+ }
+/********************* design_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#services_details_main {
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+.services_main_1 {
+ width: 90%;
+}
+.services_main_1 h2 {
+ font-size: 30px;
+}
+#design {
+ text-align: center;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+.services_main_1 {
+ width: 58%;
+}
+#services_details_main {
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+.design_7 a {
+ font-size: 15px;
+}
+.design_8 h2 a {
+ font-size: 22px;
+ padding-bottom:0px;
+}
+.design_8 h3 {
+ padding-bottom: 0px;
+}
+.design_8 h2 {
+ line-height:20px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+.services_main_1 {
+ width: 58%;
+}
+#services_details_main {
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+.design_7 a {
+ font-size: 15px;
+}
+.design_8 h2 a {
+ font-size: 22px;
+ padding-bottom:0px;
+}
+.design_8 h3 {
+ padding-bottom: 0px;
+}
+.design_8 h2 {
+ line-height:20px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

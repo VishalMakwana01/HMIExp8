@@ -1,0 +1,228 @@
+/*
+Template Name:Carpenter
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* services_main ****************/
+#services_main{ 
+ background-image: url(../img/38.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:180px;
+ padding-bottom:180px;
+ }
+.services_main_1{ 
+ background-color: #b56f13c4;
+ padding: 20px;
+ width: 25%;
+ text-align: center;
+ border-radius: 180px 10px 60px 10px;
+ }
+.services_main_1 h2{ 
+ color:#fff;
+ }
+.services_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.services_main_1 i{ 
+ color:#fff;
+ }
+.services_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* services_end ****************/
+/********************* features ****************/
+#features{  
+ padding-top:30px;
+ padding-bottom:30px; 
+ }
+#features .nav-tabs { border:none }
+#features .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+#features .nav-tabs > li > a {
+ color: #666;
+ border: 2px solid #b56f13;
+ padding: 50px 96px 46px 96px;
+ border-radius: 170px 20px 150px 20px;
+ font-size: 25px;
+}
+#features .nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+ border: none;
+ color: #fff !important;
+ background: #b56f13;
+ padding: 50px 96px 50px 96px;
+ border-radius: 170px 20px 150px 20px;
+ font-size: 27px
+}
+#features .nav-tabs > li > a::after {
+ content: ""; 
+ background:none;
+ height: 2px;
+ position: absolute; 
+ width: 100%;
+ left: 0px; 
+ bottom: -1px;
+ transition: all 250ms ease 0s;
+ transform: scale(0); 
+ }
+#features .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+ transform: scale(1);
+ }
+#features .tab-nav > li > a::after {
+ background: #21527d none repeat scroll 0% 0%;
+ color: #fff; 
+ }
+#features .tab-pane { 
+padding: 15px 0;
+ }
+#features .tab-content{
+ padding:1px;
+ }
+
+#features .card {background:none; box-shadow:none); margin-bottom:none; }
+.features_2{ 
+ padding-left:20px;
+ }
+.features_3{ 
+ padding-left:0px;
+ }
+.features_2 h3{ 
+ color: #b56f13;
+ line-height: 32px;
+ font-weight: 600;
+ padding-bottom: 0px;
+ }
+.features_2 p{ 
+ color: #999;
+ line-height: 1.5em;
+ padding-bottom:20px;
+ }
+.features_3 h3{ 
+ color: #b56f13;
+ line-height: 32px;
+ font-weight: 600;
+ padding-bottom: 0px;
+ }
+.features_3 p{ 
+ color: #999;
+ line-height: 1.5em;
+ padding-bottom:20px;
+ }
+.features_4 h2 {
+font-size: 38px;
+padding-top: 100px;
+color: #f99104;
+font-weight: bold;
+border-bottom: solid 1px #00b7c9;
+width: 20%;
+border-width: 3px;
+padding-bottom: 10px;
+margin-bottom:50px;
+}
+/********************* features_end ****************/
+/********************* services ****************/
+#services{ 
+ background-image: url(../img/43.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+.services_inner{ 
+ padding-top: 40px;
+ padding-bottom: 40px;
+ background-color: #0000008f;
+ }
+.services_2{ 
+ border:2px solid #fff;
+ text-align:center;
+ padding:20px;
+ padding: 40px 10px 5px 10px;
+ }
+.services_2 p{ 
+ color:#fff;
+ padding-top: 30px;
+ }
+/********************* services_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#services_main {
+ padding-top: 40px;
+ padding-bottom: 50px;
+}
+.services_main_1 {
+ width: 90%;
+}
+#features {
+ text-align: center;
+}
+#features .nav-tabs>li {
+ float: none;
+ margin-bottom: 10px;
+}
+.services_inner {
+ text-align: center;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+.services_main_1 {
+ width: 55%;
+}
+#services_main {
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+#features .nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+ padding: 50px 56px 50px 56px;
+ font-size: 16px;
+}
+#features .nav-tabs > li > a {
+ padding: 50px 56px 46px 56px;
+ font-size: 16px;
+}
+.button {
+ font-size: 11px;
+ padding: 13px 15px 13px 15px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+.services_main_1 {
+ width: 55%;
+}
+#services_main {
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+#features .nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+ padding: 50px 56px 50px 56px;
+ font-size: 16px;
+}
+#features .nav-tabs > li > a {
+ padding: 50px 56px 46px 56px;
+ font-size: 16px;
+}
+.button {
+ font-size: 11px;
+ padding: 13px 15px 13px 15px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
